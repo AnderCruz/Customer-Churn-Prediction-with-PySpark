@@ -1,4 +1,4 @@
-# 🔁 Customer Churn Prediction with PySpark
+# Customer Churn Prediction with PySpark
 
 *A classification model using Spark DataFrames and MLlib*
 
@@ -6,9 +6,8 @@ This project aims to support the **marketing team** in predicting whether a cust
 
 📊 Developed by **Nowa Analytics**, a data consulting firm specializing in Big Data, machine learning, and data-driven decision-making.
 
----
 
-## 🎯 Problem Statement
+## Problem Statement
 
 The marketing department has noticed a growing **customer churn problem** and needs a tool to help **predict which customers are at risk** of cancelling their services.
 
@@ -21,9 +20,8 @@ To address this, we developed a **machine learning classification model** that p
 * Payment method
 * and more
 
----
 
-## ⚙️ Solution Approach
+## Solution Approach
 
 We use **PySpark** and **Spark MLlib** to implement a complete **Machine Learning Pipeline**, including:
 
@@ -34,9 +32,9 @@ We use **PySpark** and **Spark MLlib** to implement a complete **Machine Learnin
 * ✅ Model evaluation and validation
 * ✅ Delivering a final optimized model ready to classify new customers
 
----
 
-## 🧪 Techniques Used
+
+## Techniques Used
 
 * **Data Processing**:
 
@@ -59,9 +57,9 @@ We use **PySpark** and **Spark MLlib** to implement a complete **Machine Learnin
   * Confusion Matrix
   * ROC-AUC (when applicable)
 
----
 
-## 📁 Project Structure
+
+## Project Structure
 
 ```
 📦 churn-prediction-spark
@@ -77,9 +75,9 @@ We use **PySpark** and **Spark MLlib** to implement a complete **Machine Learnin
 └── requirements.txt       # Required Python libraries
 ```
 
----
 
-## 📊 Dataset Description
+
+## Dataset Description
 
 The dataset was provided by the marketing team and includes customer-level data such as:
 
@@ -92,9 +90,9 @@ The dataset was provided by the marketing team and includes customer-level data 
 * `payment_method`
 * `churn` (target: yes/no)
 
----
 
-## 🚀 How to Run
+
+## How to Run
 
 1. Clone the repository:
 
@@ -117,9 +115,9 @@ pip install -r requirements.txt
 spark-submit src/churn_pipeline.py
 ```
 
----
 
-## ✅ Results
+
+## Results
 
 After tuning and validating multiple models, the **Random Forest Classifier** achieved the best performance:
 
@@ -131,17 +129,17 @@ After tuning and validating multiple models, the **Random Forest Classifier** ac
 
 > The model is now ready to be deployed to classify **new customers** as likely or unlikely to churn.
 
----
 
-## 🧠 Key Insights
+
+## Key Insights
 
 * Contract type and tenure are among the most significant predictors of churn.
 * Prepaid customers with short tenures are more likely to churn.
 * Hyperparameter tuning had a significant impact on model performance.
 
----
 
-## 🏢 About Nowa Analytics
+
+## About Nowa Analytics
 
 **Nowa Analytics** is a boutique data consultancy specializing in advanced analytics, machine learning, and data engineering. We help organizations unlock value from their data and make better strategic decisions.
 
